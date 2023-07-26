@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+h1,
+h3,
+p {
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+#featured-property {
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+nav a {
+  background: grey;
+}
+#details {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 100%;
+
+  /* transform: translateX(400px); */
+  float: left;
+  /* background-color: red; */
+}
+.footer {
+  background-color: red;
+  display: block;
+  width: 100%;
+}
+
+#featured-property p {
+  font-size: 10px;
+}
